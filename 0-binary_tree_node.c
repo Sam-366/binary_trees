@@ -8,11 +8,11 @@
  * Return: If an error occurs - NULL.
  *         Otherwise - a pointer to the new node.
  */
-binary_trees_t *binary_tree_node(binary_tree_t *parent, int value)
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
-	binary_trees_t *new;
+	binary_tree_t *new;
 
-	new = malloc(sizeof(binary_trees_t));
+	new = malloc(sizeof(binary_tree_t));
 	if (new == NULL)
 		return (NULL);
 
